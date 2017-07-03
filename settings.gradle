@@ -1,0 +1,10 @@
+rootProject.name = 'idea-parent'
+include ':idea-order'
+include ':idea-server'
+include ':idea-client1'
+include ':idea-client2'
+
+project(':idea-order').projectDir = "$rootDir/idea-order" as File
+project(':idea-server').projectDir = "$rootDir/idea-server" as File
+project(':idea-client1').projectDir = "$rootDir/idea-client1" as File
+project(':idea-client2').projectDir = "$rootDir/idea-client2" as File
