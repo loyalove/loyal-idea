@@ -5,7 +5,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.loyalove.idea</groupId>
-    <artifactId>idea-parent</artifactId>
+    <artifactId>loyal-idea</artifactId>
     <packaging>pom</packaging>
     <version>1.0.0</version>
 

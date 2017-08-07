@@ -1,5 +1,0 @@
-rootProject.name = 'loyal-idea'
-include ':idea-order'
-include ':idea-server'
-include ':idea-client1'
-include ':idea-client2'
