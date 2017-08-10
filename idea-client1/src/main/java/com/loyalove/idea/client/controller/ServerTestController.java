@@ -1,6 +1,7 @@
 package com.loyalove.idea.client.controller;
 
-import com.loyalove.idea.client.po.UserPO;
+import com.loyalove.idea.pojo.po.UserPO;
+
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
@@ -17,11 +18,11 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 @RequestMapping("/test")
 public class ServerTestController {
-    @RequestMapping(value = "/index", method = RequestMethod.GET)
-    public UserPO index(String msg) {
-        UserPO userPO = new UserPO();
-        userPO.setUsername("loyal");
-        userPO.setPassword(msg);
-        return userPO;
-    }
+	@RequestMapping(value = "/index", method = RequestMethod.GET)
+	public UserPO index(String msg) {
+		UserPO userPO = new UserPO("loyal");
+		userPO.setMsg(msg);
+		userPO.setAge(27);
+		return userPO;
+	}
 }

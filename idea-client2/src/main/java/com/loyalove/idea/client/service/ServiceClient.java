@@ -1,6 +1,7 @@
 package com.loyalove.idea.client.service;
 
-import com.loyalove.idea.client.po.UserPO;
+import com.loyalove.idea.pojo.po.UserPO;
+
 import org.springframework.cloud.netflix.feign.FeignClient;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
