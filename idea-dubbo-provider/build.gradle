@@ -1,0 +1,7 @@
+dependencies {
+    compile("org.springframework.boot:spring-boot-starter-actuator")
+
+    compile "com.alibaba.spring.boot:dubbo-spring-boot-starter:${dubbo_starter_version}"
+
+    compile("com.github.sgroschupf:zkclient:${dubbo_zkclient_version}")
+}

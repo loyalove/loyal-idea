@@ -1,0 +1,9 @@
+dependencies {
+    compile project(":idea-dubbo-provider")
+
+    compile "com.alibaba.spring.boot:dubbo-spring-boot-starter:${dubbo_starter_version}"
+
+    compile("org.springframework.boot:spring-boot-starter-web:${spring_boot_version}")
+
+    compile("com.github.sgroschupf:zkclient:${dubbo_zkclient_version}")
+}

@@ -4,3 +4,6 @@ include ':idea-server'
 include ':idea-client1'
 include ':idea-client2'
 include 'idea-pojo'
+include 'idea-dubbo-provider'
+include 'idea-dubbo-consumer'
+

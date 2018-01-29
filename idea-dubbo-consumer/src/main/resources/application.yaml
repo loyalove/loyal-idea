@@ -1,0 +1,9 @@
+spring:
+  dubbo:
+    appname: dubbo-consumer
+#    registry: zookeeper://192.169.3.128:2181?client=zkclient
+    registry: multicast://224.1.1.1:12345?unicast=false
+    protocol: dubbo
+    port: 20880
+server:
+  port: 8971

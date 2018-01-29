@@ -1,0 +1,8 @@
+spring:
+  dubbo:
+    appname: dubbo-provider
+#    registry: zookeeper://192.169.3.128:2181?client=zkclient
+    registry: N/A
+    protocol: dubbo
+server:
+  port: 8970
